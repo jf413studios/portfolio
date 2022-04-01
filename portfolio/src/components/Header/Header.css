@@ -1,0 +1,235 @@
+header{
+    height: 150px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+header svg#logo{
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 0 0 25px;
+    transition: 1s;
+}
+
+header svg#logo path{
+    fill: #fed100;
+}
+
+header svg#logo circle{
+    fill: #fed100;
+}
+
+header .leftCol{
+    width: 30%;
+}
+
+header .rightCol{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 80px 0 0;
+}
+
+header nav{
+    margin: 0;
+}
+
+header nav ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 20px 0 0;
+    color: #ffffff;
+    transition: 1s;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+}
+
+header nav ul li a:hover{
+    color: #fed100;
+    cursor: pointer;
+}
+
+header #space{
+    display: block;
+    height: 40px;
+    border: 1px solid #ffffff;
+    transition: 1s;
+}
+
+header ul#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+header ul#social svg{
+    font-size: 25px;
+    margin: 0 10px 0 0;
+    color: #ffffff;
+    transition: 1s;
+}
+
+header ul#social svg:hover{
+    color: #fed100;
+    cursor: pointer;
+}
+
+header .fa-bars,
+header .fa-xmark{
+    display: none;
+}
+
+
+/** Scrolling Header Styles **/
+header.active{
+    background-color: #fed100;
+}
+
+header.active svg#logo path{
+    fill: #1b1b1b;
+}
+
+header.active svg#logo circle{
+    fill: #1b1b1b;
+}
+
+header.active nav ul li a{
+    color: #1b1b1b;
+}
+
+header.active nav ul li a:hover{
+    color: #a6a6a6;
+}
+
+header.active ul#social svg{
+    color: #1b1b1b;
+}
+
+header.active #space{
+    border: 1px solid #1b1b1b;
+}
+
+header.active ul#social svg:hover{
+    color: #a6a6a6;
+}
+
+header.active .fa-bars{
+    color: #1b1b1b;
+}
+/** END Scrolling Header Styles **/
+
+/** Reponsive **/
+@media screen and (max-width: 820px){
+    header{
+        flex-flow: column;
+        height: 85px;
+    }
+
+    header .leftCol{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85px;
+    }
+
+    header .rightCol{
+        width: 100%;
+        display: none;
+    }
+
+    header .rightCol#mobile{
+        display: block;
+        position: absolute;
+        height: 100%;
+        background-color: #1b1b1b;
+        padding: 0;
+    }
+
+    header svg#logo{
+        margin: 0;
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    header .fa-bars{
+        display: block;
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+
+    header .fa-xmark{
+        display: block;
+        color: #ffffff;
+        font-size: 40px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    header#mobile-nav{
+        height: 100%;
+    }
+
+    header nav ul{
+        flex-flow: column;
+        padding: 0;
+    }
+
+    header nav ul li{
+        font-size: 25px;
+        margin: 0;
+        padding: 50px 0;
+    }
+
+    header #space{
+        height: 0;
+    }
+
+    header ul#social{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+
+    header ul#social svg{
+        font-size: 30px;
+        margin: 0 20px;
+    }
+
+    header.active nav ul li a{
+        color: #ffffff;
+    }
+
+    header.active #space {
+        border: 1px solid #ffffff;
+    }
+
+    header.active ul#social svg{
+        color: #ffffff;
+    }
+}
+/** END Reponsive **/
