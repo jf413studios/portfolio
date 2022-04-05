@@ -180,19 +180,23 @@ header.active .fa-bars{
         position: absolute;
         top: 30px;
         left: 20px;
+        cursor: pointer;
     }
 
     header .fa-xmark{
         display: block;
         color: #ffffff;
-        font-size: 40px;
+        font-size: 25px;
         position: absolute;
         top: 30px;
         right: 20px;
+        cursor: pointer;
     }
 
     header#mobile-nav{
         height: 100%;
+        background-color: #1b1b1b;
+        overflow: scroll;
     }
 
     header nav ul{
@@ -201,18 +205,19 @@ header.active .fa-bars{
     }
 
     header nav ul li{
-        font-size: 25px;
+        font-size: 18px;
         margin: 0;
         padding: 50px 0;
     }
 
     header #space{
-        height: 0;
+        display: none;
     }
 
     header ul#social{
         padding: 0;
-        margin: 50px 0 0 0;
+        margin: 0;
+        padding: 30px 0;
     }
 
     header ul#social svg{
