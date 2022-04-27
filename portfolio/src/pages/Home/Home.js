@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header';
 import HeroBanner from './Sections/HeroBanner/HeroBanner';
 import About from './Sections/About/About';
 import Portfolio from './Sections/Portfolio/Portfolio';
+import Contact from './Sections/Contact/Contact';
 
 function Home(){
     return(
@@ -12,6 +13,7 @@ function Home(){
                 <HeroBanner />
                 <About />
                 <Portfolio />
+                <Contact />
             </div>
         </div>
     );
