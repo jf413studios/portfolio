@@ -1,121 +1,134 @@
-.about .about-section-v1{
-    background-image: none;
-}s
-
-.about .about-section-v1 .container p{
-    margin: 0 0 20px 0;
-}
-
-.about .about-section-v1 .container{
-    display: block;
-}
-
-.about #bio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0 0 0;
-}
-
-.about .about-section-v1 .container #rightCol p{
-    margin: 0 0 20px 0;
-}
-
-.about #skills{
-    margin: 100px auto;
-    width: 90%;
-}
-
-.about #skills #skills-container{
+.about #bio-banner{
+    height: 1125px;
     width: 100%;
-    margin: 70px auto;
+    background-image: url("./pic-background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.about #skills #skills-container .row{
-    display: flex;
-    flex-flow: wrap;
-}
-
-.about #skills #skills-container .skill-card{
-    width: 18%;
-    height: 324px;
-    box-shadow: 0px 0px 20px rgba(254, 209, 0, 0.25);
-    border-radius: 25px;
+.about #bio-banner .container{
+    background-color: #1b1b1b;
+    opacity: 0.85;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    margin: 3%;
 }
 
-.about #skills #skills-container .skill-card svg{
-    font-size: 150px;
+.about #bio-banner .container h1{
+    font-size: 144px;
     color: #fed100;
-}
-
-.about #skills #skills-container .skill-card p{
-    font-size: 30px;
-    color: #fed100;
-    font-weight: 500;
-    padding: 30px 0 0 0;
-}
-
-.about #skills #skills-container .skill-card:hover{
-    background-color: #fed100;
-}
-
-.about #skills #skills-container .skill-card:hover svg{
-    color: #1b1b1b;
-}
-
-.about #skills #skills-container .skill-card:hover p{
-    color: #1b1b1b;
+    margin: 0 0 25px 0;
     font-weight: 700;
+    line-height: 115px;
+    text-align: center;
+}
+
+.about #bio-banner .container p{
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+}
+
+.about #bio-description{
+    height: auto;
+    text-align: center;
+    /**background: url("./cloud-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;**/
+}
+
+.about #bio-description .container{
+    background-color: #1b1b1b;
+    opacity: 0.90;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 100px 50px;
+}
+
+.about #bio-description p{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.about #work-experience{
+    background-image: url("./nature-background-3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.about #work-experience .container{
+    background-color: #1b1b1b;
+    opacity: 0.85;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 100px 0;
+}
+
+.about #work-experience h3{
+    font-size: 48px;
+    color: #fed100;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+.about #work-experience h2{
+    font-size: 64px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 25px 0;
+}
+
+.about #work-experience hr{
+    width: 183px;
+    border: 1px solid #fed100;
 }
 
 @media screen and (max-width: 1440px){
-    .about #bio{
-        padding: 200px 0 0 0;
+    .about #bio-banner .container h1{
+        font-size: 124px;
+        line-height: 85px;
     }
 
-    .about #skills #skills-container .skill-card{
-        height: 250px;
-    }
-
-    .about #skills #skills-container .skill-card svg{
-        font-size: 100px;
-    }
-
-    .about #skills #skills-container .skill-card p{
-        font-size: 20px;
+    .about #bio-banner .container p{
+        font-size: 26px;
     }
 }
 
 @media screen and (max-width: 1024px){
-    .about #bio{
-        flex-flow: column;
+    .about #bio-banner .container h1{
+        font-size: 104px;
     }
 
-    .about #skills #skills-container .skill-card{
-        width: 44%;
-    }
-
-    .about #skills{
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 820px){
-    .about #skills{
-        padding: 0 0 100px 0;
+    .about #bio-banner{
+        height: 825px;
     }
     
-    .about #skills #skills-container{
-        margin: 40px auto;
+    .about #bio-banner .container h1{
+        font-size: 84px;
+        line-height: 75px;
     }
+}
 
-    .about #skills #skills-container .skill-card{
-        width: 100%;
-        margin: 5% 0;
+@media screen and (max-width: 620px){
+    .about #bio-banner .container h1{
+        font-size: 64px;
     }
 }
