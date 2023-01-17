@@ -13,17 +13,17 @@ function Portfolio(){
                     <Link to="/portfolio" className="cta">View Portfolio</Link>
                 </div>
                 <div id="rightCol">
-                    <div class="row">
-                        <div class="col col-lg" id="staples"></div>
-                        <div class="col col-sm" id="healthcasts"></div>
+                    <div className="row">
+                        <div className="col col-lg" id="staples"></div>
+                        <div className="col col-sm" id="healthcasts"></div>
                     </div>
-                    <div class="row">
-                        <div class="col col-sm" id="airtank"></div>
-                        <div class="col col-lg" id="ars"></div>
+                    <div className="row">
+                        <div className="col col-sm" id="airtank"></div>
+                        <div className="col col-lg" id="ars"></div>
                     </div>
-                    <div class="row">
-                        <div class="col col-lg" id="pds"></div>
-                        <div class="col col-sm empty"></div>
+                    <div className="row">
+                        <div className="col col-lg" id="pds"></div>
+                        <div className="col col-sm empty"></div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,124 @@
+.portfolio .page-content{
+    padding: 230px 30px 30px 30px;
+}
+
+.portfolio .row{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.portfolio .row .column{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    width: 25%;
+}
+
+.portfolio .row .column:nth-of-type(2){
+    margin: 0 15px 0 30px;
+}
+
+.portfolio .row .column:nth-of-type(3){
+    margin: 0 30px 0 15px;
+}
+
+.portfolio .row .column .portfolio-card{
+    border: 1px solid #ffffff;
+    margin: 0 0 30px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.portfolio .row .column .portfolio-card:hover .portfolio-card-content{
+    background-color:rgba(27, 27, 27, 0.1);
+    cursor: pointer;
+}
+
+.portfolio .row .column .portfolio-card:hover .portfolio-card-content .title,
+.portfolio .row .column .portfolio-card:hover .portfolio-card-content .company,
+.portfolio .row .column .portfolio-card:hover .portfolio-card-content .year{
+    display: none;
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(1) .portfolio-card:nth-of-type(1){
+    height: 556px;
+    background-image: url("./cosentyx-logo.jpg");
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(1) .portfolio-card:nth-of-type(2){
+    background-image: url("./merck-logo.png");
+    height: 408px;
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(2) .portfolio-card:nth-of-type(1){
+    height: 408px;
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(2) .portfolio-card:nth-of-type(2){
+    height: 487px;
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(3) .portfolio-card:nth-of-type(1){
+    height: 487px;
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(3) .portfolio-card:nth-of-type(2){
+    height: 316px;
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(4) .portfolio-card:nth-of-type(1){
+    height: 316px;
+}
+
+.portfolio .row:nth-of-type(1) .column:nth-of-type(4) .portfolio-card:nth-of-type(2){
+    height: 556px;
+}
+
+.portfolio .row .column .portfolio-card .portfolio-card-content{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    height: 100%;
+    background-color: rgba(27, 27, 27, 0.95);
+    transition: 1s;
+    padding: 0 20px;
+}
+
+.portfolio .row .column .portfolio-card .portfolio-card-content .title{
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 20px 0;
+    transition: 1s;
+}
+
+.portfolio .row .column .portfolio-card .portfolio-card-content .company{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 10px 0;
+    transition: 1s;
+}
+
+.portfolio .row .column .portfolio-card .portfolio-card-content .year{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    transition: 1s;
+}

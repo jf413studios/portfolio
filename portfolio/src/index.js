@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './Main.css';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Portfolio from './pages/Portfolio/Portfolio';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/portfolio" element={<Portfolio />} />
       </Routes> 
     </Router>
   </React.StrictMode>,

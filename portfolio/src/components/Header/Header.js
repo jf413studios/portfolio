@@ -16,12 +16,13 @@ class Header extends React.Component{
             hasScrolled: false,
             showMobileNav: false
         }
-        this.showMobileNav = this.showMobileNav.bind(this);
-        this.hideMobileNav = this.hideMobileNav.bind(this);
+        this.showMobileNav = this.showMobileNav.bind(this); //Binds the showMobileNav function to this class-based component
+        this.hideMobileNav = this.hideMobileNav.bind(this); //Binds the hideMobileNav function to this class-based component
     }
 
     componentDidMount() {
-        window.addEventListener("scroll", this.handleScroll);
+        window.addEventListener("scroll", this.handleScroll); //Adds scroll event listener when user is scrolling on the page.
+        window.scrollTo(0, 0); //Scrolls to top of the page after the header has been rendered.
     }
 
     componentWillUnmount() {
@@ -30,6 +31,7 @@ class Header extends React.Component{
 
     handleScroll = () => {
         let windowScroll = window.scrollY;
+        //Determines if the user has scrolled past a certain vertical limit on the page. If so an animation will take place in the header.
         if(windowScroll > 150){
             this.setState({hasScrolled: true});
         }else{
@@ -55,7 +57,7 @@ class Header extends React.Component{
                     </Link>
                 </div>
                 <div className="rightCol" id={this.state.showMobileNav ? "mobile" : ""}>
-                <FontAwesomeIcon icon={faXmark} onClick={this.hideMobileNav} />
+                    <FontAwesomeIcon icon={faXmark} onClick={this.hideMobileNav} />
                     <nav>
                         <ul>
                             <li>

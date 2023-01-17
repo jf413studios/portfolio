@@ -1,7 +1,7 @@
 .contact-section-v1{
     width: 100%;
     height: 1036px;
-    /*background-image: url("./setup_background.jpg");*/
+    background-image: url("./setup_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
