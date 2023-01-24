@@ -6,6 +6,7 @@
     width: 100%;
     display: flex;
     display: -webkit-flex;
+    transition: 1s;
 }
 
 .portfolio .row .column{
@@ -46,35 +47,41 @@
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(1) .portfolio-card:nth-of-type(1){
     height: 556px;
-    background-image: url("./cosentyx-logo.jpg");
+    background-image: url("./images/cosentyx-logo.jpg");
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(1) .portfolio-card:nth-of-type(2){
-    background-image: url("./merck-logo.png");
+    background-image: url("./images/merck-logo.png");
     height: 408px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(2) .portfolio-card:nth-of-type(1){
+    background-image: url("./images/soclean-logo.jpeg");
     height: 408px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(2) .portfolio-card:nth-of-type(2){
+    background-image: url("./images/ziftrshop-logo.png");
     height: 487px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(3) .portfolio-card:nth-of-type(1){
+    background-image: url("./images/tru-red-logo.jpeg");
     height: 487px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(3) .portfolio-card:nth-of-type(2){
+    background-image: url("./images/nxt-logo.jpeg");
     height: 316px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(4) .portfolio-card:nth-of-type(1){
+    background-image: url("./images/wizard-logo.png");
     height: 316px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(4) .portfolio-card:nth-of-type(2){
+    background-image: url("./images/arscars-logo.png");
     height: 556px;
 }
 
@@ -122,3 +129,137 @@
     margin: 0;
     transition: 1s;
 }
+
+.portfolio .row.hide{
+    display: none;
+}
+
+.portfolio #work-samples{
+    display: none;
+    transition: 1s;
+}
+
+.portfolio #work-samples.active{
+    display: block;
+}
+
+.portfolio #work-samples{
+    width: 100%;
+}
+
+.portfolio #work-samples .sample{
+    display: none;
+}
+
+.portfolio #work-samples .sample.active{
+    display: block;
+}
+
+.portfolio #work-samples h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+.portfolio #work-samples p{
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.portfolio #work-samples p a{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.portfolio #work-samples img{
+    width: 100%;
+}
+
+.portfolio #work-samples #back-button{
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #fed100;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    width: 260px;
+    padding: 30px 0;
+    color: #fed100;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.portfolio #work-samples #back-button:hover{
+    background-color: #fed100;
+    color: #1b1b1b;
+}
+
+/** Reponsive **/
+@media screen and (max-width: 1024px){
+    .portfolio .row{
+        flex-wrap: wrap;
+    }
+
+    .portfolio .row .column{
+        flex: 40%;
+    }
+
+    .portfolio .row .column:nth-of-type(2) {
+        margin: 0 0 0 30px;
+    }
+
+    .portfolio .row .column:nth-of-type(3) {
+        margin: 0 30px 0 0;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .portfolio .row .column {
+        flex: 100%;
+    }
+
+    .portfolio .row .column:nth-of-type(2) {
+        margin: 0;
+    }
+
+    .portfolio .row .column:nth-of-type(3) {
+        margin: 0;
+    }
+
+    .portfolio .row .column .portfolio-card{
+        height: 300px !important;
+    }
+
+    .portfolio .row .column .portfolio-card .portfolio-card-content .title{
+        font-size: 30px;
+    }
+
+    .portfolio .row .column .portfolio-card .portfolio-card-content .company{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .portfolio .row .column .portfolio-card .portfolio-card-content .year{
+        font-size: 16px;
+    }
+
+    .portfolio #work-samples #back-button{
+        width: 30%;
+        padding: 20px 0;
+        font-size: 18px;
+    }
+
+    .portfolio .page-content {
+        padding: 130px 30px 30px 30px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .portfolio #work-samples #back-button{
+        width: 50%;
+    }
+}
+/** END Reponsive **/
