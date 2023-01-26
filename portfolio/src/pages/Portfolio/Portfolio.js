@@ -106,7 +106,7 @@ class Portfolio extends React.Component{
                         </div>
                     </div>
                     <div id="work-samples" className={this.state.showWorkSample ? 'active' : ''}>
-                        <div id="back-button" onClick={this.hideWorkSample}>Back</div>
+                        <div id="back-button" className="cta" onClick={this.hideWorkSample}>Back</div>
                         <div className="work-samples-container">
                             <div id="cosentyx" className="sample">
                                 <h1>Cosentyx Landing Page</h1>

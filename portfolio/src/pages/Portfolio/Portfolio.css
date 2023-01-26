@@ -47,41 +47,41 @@
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(1) .portfolio-card:nth-of-type(1){
     height: 556px;
-    background-image: url("./images/cosentyx-logo.jpg");
+    background-image: url("./images/cosentyx-landing-page.png");
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(1) .portfolio-card:nth-of-type(2){
-    background-image: url("./images/merck-logo.png");
+    background-image: url("./images/keytruda-landing-page.png");
     height: 408px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(2) .portfolio-card:nth-of-type(1){
-    background-image: url("./images/soclean-logo.jpeg");
+    background-image: url("./images/soclean-landing-page.png");
     height: 408px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(2) .portfolio-card:nth-of-type(2){
-    background-image: url("./images/ziftrshop-logo.png");
+    background-image: url("./images/ziftrshop-landing-page.png");
     height: 487px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(3) .portfolio-card:nth-of-type(1){
-    background-image: url("./images/tru-red-logo.jpeg");
+    background-image: url("./images/tru-red-landing-page.png");
     height: 487px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(3) .portfolio-card:nth-of-type(2){
-    background-image: url("./images/nxt-logo.jpeg");
+    background-image: url("./images/nxt-landing-page.png");
     height: 316px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(4) .portfolio-card:nth-of-type(1){
-    background-image: url("./images/wizard-logo.png");
+    background-image: url("./images/wizard-landing-page.png");
     height: 316px;
 }
 
 .portfolio .row:nth-of-type(1) .column:nth-of-type(4) .portfolio-card:nth-of-type(2){
-    background-image: url("./images/arscars-logo.png");
+    background-image: url("./images/arscars-mbid-landing-page.png");
     height: 556px;
 }
 
@@ -178,24 +178,6 @@
     width: 100%;
 }
 
-.portfolio #work-samples #back-button{
-    background-color: transparent;
-    border-radius: 0;
-    border: 1px solid #fed100;
-    font-size: 24px;
-    text-align: center;
-    font-weight: 700;
-    width: 260px;
-    padding: 30px 0;
-    color: #fed100;
-    transition: 1s;
-    cursor: pointer;
-}
-
-.portfolio #work-samples #back-button:hover{
-    background-color: #fed100;
-    color: #1b1b1b;
-}
 
 /** Reponsive **/
 @media screen and (max-width: 1024px){
@@ -246,20 +228,8 @@
         font-size: 16px;
     }
 
-    .portfolio #work-samples #back-button{
-        width: 30%;
-        padding: 20px 0;
-        font-size: 18px;
-    }
-
     .portfolio .page-content {
         padding: 130px 30px 30px 30px;
-    }
-}
-
-@media screen and (max-width: 620px){
-    .portfolio #work-samples #back-button{
-        width: 50%;
     }
 }
 /** END Reponsive **/
