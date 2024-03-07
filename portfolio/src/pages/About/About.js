@@ -41,7 +41,7 @@ function About(){
                                     </div>
                                     <div className="line"></div>
                                     <div className="year">
-                                        <p className="dates">Jul 2020 &ndash; Present</p>
+                                        <p className="dates">Jul 2021 &ndash; Present</p>
                                     </div>
                                 </div>
                             </div>
