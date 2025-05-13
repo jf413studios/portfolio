@@ -25,5 +25,3 @@ const GA = () => {
         </>
     );
 };
-
-export default GA;
