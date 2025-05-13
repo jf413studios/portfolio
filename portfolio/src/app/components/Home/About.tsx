@@ -87,7 +87,7 @@ const About = () => {
                   <div className="flex items-center">
                     <div>
                       <div className="text-base font-semibold text-gray-800 dark:text-neutral-200">Jose Fuentes</div>
-                      <div className="text-xs text-gray-500 dark:text-neutral-400">Founder & CEO | JF 4:13 STUDIOS</div>
+                      <div className="text-xs text-gray-500 dark:text-neutral-400">Senior Front End Developer | Entrepreneur </div>
                     </div>
                   </div>
                 </footer>
