@@ -6,7 +6,7 @@ const About = () => {
         <section className="max-w-[85rem] px-4 py-36 sm:px-6 lg:px-8 mx-auto">
             <div className="h-40 w-full overflow-hidden relative">
                 <Image
-                    className="w-full object-cover rounded-xl absolute top-[200px] bottom-0 m-auto"
+                    className="w-full object-cover rounded-xl absolute top-[100px] bottom-0 m-auto"
                     src={AboutPic}
                     alt="Jose Fuentes"
                     title="Jose Fuentes"

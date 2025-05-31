@@ -82,8 +82,8 @@ const Contact = () => {
                             <div className="grow">
                                 <h3 className="font-semibold text-gray-800 dark:text-white">Contact me by email</h3>
                                 <p className="mt-1 text-sm text-woodsmoke-500 dark:text-neutral-500">If you wish to write me an email instead please use</p>
-                                <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-woodsmoke-600 hover:text-woodsmoke-950 dark:text-neutral-400 dark:hover:text-white" href="mailto:jf413studios@gmail.com" target="_blank">
-                                    jf413studios@gmail.com
+                                <a className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-woodsmoke-600 hover:text-woodsmoke-950 dark:text-neutral-400 dark:hover:text-white" href="mailto:josealbertofuentes64@gmail.com" target="_blank">
+                                    josealbertofuentes64@gmail.com
                                 </a>
                             </div>
                         </div>
