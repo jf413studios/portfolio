@@ -90,6 +90,7 @@ const Header = () => {
                 <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
                     <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
                         <Link className="font-medium text-woodsmoke-950 sm:py-6 dark:text-white hover:text-gray-400 dark:hover:text-gold-500" href="/" aria-current="page">Home</Link>
+                        <Link className="font-medium text-woodsmoke-950 sm:py-6 dark:text-white hover:text-gray-400 dark:hover:text-gold-500" href="/work" aria-current="page">Portfolio</Link>
                         <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                             <button type="button" className="flex items-center w-full text-woodsmoke-950 hover:text-gray-400 font-medium dark:text-white dark:hover:text-gold-500">
                                 About

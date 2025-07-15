@@ -9,7 +9,7 @@ import NxtTechnologies from '../../../../public/images/NxtTechnologies.png';
 const Work = () => {
     return (
         <section className="max-w-[85rem] px-4 py-32 sm:px-6 lg:px-8 mx-auto">
-            <h1 className="text-3xl font-bold md:text-4xl md:leading-tight dark:text-white text-center mb-10">My Work</h1>
+            <h1 className="text-3xl font-bold md:text-4xl md:leading-tight dark:text-white text-center mb-10">Portfolio</h1>
             <div className="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
                 <a className="group block rounded-xl overflow-hidden focus:outline-hidden" href="https://app.healthcasts.com/prg-asset/Novo-MASH-PP-9086" target="_blank">
                     <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
