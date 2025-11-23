@@ -20,6 +20,24 @@ const Reviews = () => {
             </p>
           </div>
         </div>
+        <div className="flex flex-col bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700">
+          <div className="flex-auto p-4 md:p-6">
+            <p className="mt-3 sm:mt-6 text-base text-gray-800 md:text-xl dark:text-white">
+              <em>
+                &ldquo;Jose Fuentes is fantastic. He was a true partner when creating and managing my web presence. His responsiveness and technical skill are top-notch. I would recommend him to anyone with web design or website creation needs. I would definitely engage with Jose again&rdquo;
+              </em>
+            </p>
+          </div>
+
+          <div className="p-4 rounded-b-xl md:px-6">
+            <h3 className="text-sm font-semibold text-gray-800 sm:text-base dark:text-neutral-200">
+                Fancis
+            </h3>
+            <p className="text-sm text-gray-500 dark:text-neutral-500">
+                <a href="https://sharedstagecollective.org/" target="_blank">Shared Stage Collective</a>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
