@@ -21,11 +21,11 @@ const Work = () => {
                 </button>
 
                 <button type="button" className="hs-tab-active:text-gold-500 hs-tab-active:bg-gold-500 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" id="tabs-with-card-item-2" aria-selected="false" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2" role="tab">
-                <svg className="shrink-0 hidden sm:block size-7 hs-tab-active:text-woodsmoke-950 text-woodsmoke-950 dark:hs-tab-active:text-gold-500 dark:text-white" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
-                <span className="sm:mt-5">
-                    <span className="hs-tab-active:text-woodsmoke-950 block font-semibold text-woodsmoke-950 dark:hs-tab-active:text-gold-500 dark:text-white">Freelance</span>
-                    <span className="hidden lg:block mt-2 text-woodsmoke-950 dark:text-neutral-200"></span>
-                </span>
+                    <svg className="shrink-0 hidden sm:block size-7 hs-tab-active:text-woodsmoke-950 text-woodsmoke-950 dark:hs-tab-active:text-gold-500 dark:text-white" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
+                    <span className="sm:mt-5">
+                        <span className="hs-tab-active:text-woodsmoke-950 block font-semibold text-woodsmoke-950 dark:hs-tab-active:text-gold-500 dark:text-white">Freelance</span>
+                        <span className="hidden lg:block mt-2 text-woodsmoke-950 dark:text-neutral-200"></span>
+                    </span>
                 </button>
             </nav>
             <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
